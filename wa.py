@@ -5,7 +5,7 @@ class wa:
      def __init__(self, json):
          self.nomor = json['response']['from']
          self.pesan = json['response']['body']
-         self.apikey = 'botveriv'
+         self.apikey = ''
 
      def kirim_requests(self, method,data):
          url = f"https://rzawapi.my.id/api/{method}"
