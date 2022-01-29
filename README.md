@@ -1,4 +1,12 @@
-## 🖥️ Installation
+## 🖥️ GET STARTED
+* Langkah Pertama Daftar Dulu Di <a href="https://rzawapi.my.id">rzawapi</a> Untuk Mendapatkan Apikey
+* Clone reposity ini ``git clone https://github.com/rezzaapr/rzawapi-whatsappBot``
+* Masuk Ke Folder ``rzawapi-whatsappBot``
+* install library dengan mengetik ``pip3 install -r requirements.txt``
+* Selanjutnya Buka Text Editor Kesukaan kalian Dan Buka ``wa.py`` Edit Pada Bagian ``self.apikey``
+* jalankan server dengan mengetik ``python3 main.py``
+
+
 ```
 $ git clone https://github.com/rezzaapr/rzawapi-whatsappBot
 $ cd rzawapi-whatsappBot
