@@ -32,6 +32,7 @@ class wa:
          }
          kirim = self.kirim_requests('send-image',data)
          return kirim
+
      def sendLocation(self):
          data = {
          "to": self.nomor,
@@ -40,6 +41,14 @@ class wa:
          "latitude":"-6.178306"
          }
          kirim = self.kirim_requests('send-location',data)
+         return kirim
+
+     def NoCommand(self):
+         data = {
+         "to": self.nomor,
+         "body": "Maaf Command Tidak Ditemukan"
+         }
+         kirim = self.kirim_requests('send-message',data)
          return kirim
 
      def processing(self):
